@@ -1,1 +1,1 @@
-# Arquitecturas-de-Servidores-de-Aplicaciones-Meta-protocolos-de-objetos-Patr-n-IoC-Reflexi-n
+# Arquitecturas de Servidores de Aplicaciones Meta protocolos de objetos Patron IoC Reflexion
