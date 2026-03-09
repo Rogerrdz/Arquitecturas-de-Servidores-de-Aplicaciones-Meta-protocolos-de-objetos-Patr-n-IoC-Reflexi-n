@@ -44,10 +44,19 @@ Open your browser and go to
 http://localhost:8082
 ```
 
+To go to the home page go to :
+```
+http://localhost:8082/index.html
+```
+
 ## Running the tests
 ```
 mvn test
 ```
+
+The project includes 12 automated tests covering all controller endpoints:
+
+![Test Execution](/AppWebServe/src/images/test_execution.png)
 
 ### Break down into end to end tests
 
@@ -55,6 +64,8 @@ The test verifies the basic functionality of the application context.
 ```
 mvn test -Dtest=AppTest
 ```
+
+Results: **Tests run: 16, Failures: 0, Errors: 0, Skipped: 0**
 
 ### And coding style tests
 
@@ -105,7 +116,7 @@ Installation of Corretto 21 :
 
 Conecction to put compiled classes in to the server :
 
-![Conecction ](/AppWebServe/src/images/sftp_connection.png)
+![First Conecction](/AppWebServe/src/images/sftp_connection.png)
 
 Unzip classes:
 
@@ -117,7 +128,7 @@ Correct execution from the server :
 
 Configuration of non-consolidated Rules in the security group:
 
-[Conecction ](/AppWebServe/src/images/unboundes_rules_security_group_server.png)
+![Conecction ](/AppWebServe/src/images/unboundes_rules_security_group_server.png)
 
 Application accessed via public DNS :
 
@@ -145,6 +156,17 @@ Application accessed via public DNS :
 
 To this part you can change de name in the path to get personalized greeting 
 
+- Route /greeting?name=Juan
+
+![Application on AWS](/AppWebServe/src/images/correct_execution_with_public_DNS_server_greeting_name.png)
+
+- Route /greeting/bye?name=Juan
+
+![Application on AWS](/AppWebServe/src/images/correct_execution_with_public_DNS_server_greeting_bye.png)
+
+- Route /greeting/welcome?name=Roger
+
+![Application on AWS](/AppWebServe/src/images/correct_execution_with_public_DNS_server_greeting_welcome.png)
 
 ## Built With
 
