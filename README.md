@@ -54,7 +54,7 @@ http://localhost:8082/index.html
 mvn test
 ```
 
-The project includes 12 automated tests covering all controller endpoints:
+The project includes 16 automated tests covering all controller endpoints:
 
 ![Test Execution](/AppWebServe/src/images/test_execution.png)
 
