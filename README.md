@@ -27,6 +27,8 @@ git clone https://github.com/Rogerrdz/Arquitecturas-de-Servidores-de-Aplicacione
 Navigate to the project folder
 ```
 cd Arquitecturas-de-Servidores-de-Aplicaciones-Meta-protocolos-de-objetos-Patr-n-IoC-Reflexi-n
+
+cd AppWebServe
 ```
 
 Compile the project
